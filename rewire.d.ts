@@ -1,5 +1,5 @@
 declare namespace Rewire {
-    function rewire(file: string): {
+    function rewire<T>(file: string): T & {
         __get__(fn: string): () => any;
         __set__(variable: string, mock: any): void;
         __set__(variables: { [variable: string]: any }): void
