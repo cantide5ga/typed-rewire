@@ -1,4 +1,4 @@
 {
     "name": "rewire",
-    "main": "rewire.d.ts"
+    "main": "index.d.ts"
 }
